@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<project name="Box UK Autoload" basedir="." default="pear-package">
+    
+    <target name="pear-package" description="Build PEAR package">
+        <exec command="php package.php"
+              passthru="true"
+              checkReturn="true" />
+        <exec command="pear package lib/package.xml"
+              passthru="true"
+              checkReturn="true" />
+    </target>
+
+</project>
