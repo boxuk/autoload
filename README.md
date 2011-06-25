@@ -9,7 +9,6 @@ Usage
 =====
 
 <pre>
-<?php
 
 include 'BoxUK\Autoload.php';
 
@@ -24,7 +23,6 @@ There is also an option to register a PEAR autoloader, which will load any
 PEAR packages you have installed which are PSR0 compliant.
 
 <pre>
-<?php
 
 include 'BoxUK\Autoload.php';
 
