@@ -1,8 +1,7 @@
-
 Box UK Autoload
 ===============
 
-This small library provides a simple PSR0 autoloader that can be used to load
+This small library provides a simple PSR-0 autoloader that can be used to load
 any compliant library.
 
 Usage
@@ -20,7 +19,7 @@ Autoload PEAR
 =============
 
 There is also an option to register a PEAR autoloader, which will load any
-PEAR packages you have installed which are PSR0 compliant.
+PEAR packages you have installed which are PSR-0 compliant.
 
 <pre>
 
