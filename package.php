@@ -12,7 +12,7 @@
  * @since     1.0.0
  */
 
-define( 'VERSION', '1.0.0' );
+define( 'VERSION', '1.0.1' );
 
 require_once( 'PEAR/PackageFileManager2.php' );
 
@@ -25,7 +25,7 @@ $packagexml->setOptions(array(
 $packagexml->setPackage( 'autoload' );
 $packagexml->setSummary( 'PSR0 Autoloader' );
 $packagexml->setDescription( '-' );
-$packagexml->setChannel( 'pear.boxuk.com' );
+$packagexml->setChannel( 'pear.boxuk.net' );
 $packagexml->setAPIVersion( VERSION );
 $packagexml->setReleaseVersion( VERSION );
 $packagexml->setReleaseStability( 'stable' );
