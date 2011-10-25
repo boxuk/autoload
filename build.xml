@@ -10,7 +10,7 @@
     </target>
     
     <target name="pear-package" description="Build PEAR package">
-        <exec command="php package.php"
+        <exec command="php package.php ${version} ${channel}"
               passthru="true"
               checkReturn="true" />
         <exec command="pear package lib/package.xml"
